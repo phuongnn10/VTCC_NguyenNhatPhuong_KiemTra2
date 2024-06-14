@@ -1,0 +1,108 @@
+[INFO] 14-06-2024 14:35:03 [main] LogUtils - onStart: Fri Jun 14 14:35:02 ICT 2024
+[INFO] 14-06-2024 14:35:06 [main] LogUtils - Start test case addNewProduct
+[INFO] 14-06-2024 14:35:09 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 14-06-2024 14:35:10 [main] LogUtils - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 14-06-2024 14:35:10 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 14-06-2024 14:35:12 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 14-06-2024 14:35:12 [main] LogUtils - Get Current URL: https://cms.anhtester.com/admin
+[INFO] 14-06-2024 14:35:12 [main] LogUtils - Login Success!!
+[INFO] 14-06-2024 14:35:12 [main] LogUtils - Click element By.xpath: //span[normalize-space()='Products']
+[INFO] 14-06-2024 14:35:14 [main] LogUtils - Click element By.xpath: //span[normalize-space()='Add New Product']
+[INFO] 14-06-2024 14:35:14 [main] LogUtils - Check element display By.xpath: //h5[normalize-space()='Add New Product'] 
+=======> true
+[INFO] 14-06-2024 14:35:14 [main] LogUtils - Check Add New Product Title is visible true
+[INFO] 14-06-2024 14:35:14 [main] LogUtils - Set text: TestingProduct on element By.xpath: //input[@placeholder='Product Name']
+[INFO] 14-06-2024 14:35:15 [main] LogUtils - Click element By.xpath: //button[@title='Sport shoes']
+[INFO] 14-06-2024 14:35:15 [main] LogUtils - Set text: aka on element By.xpath: (//input[@aria-label='Search'])[1]
+[INFO] 14-06-2024 14:35:15 [main] LogUtils - Set text: g on element By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 14-06-2024 14:35:15 [main] LogUtils - Set text: 1 on element By.xpath: //input[@name='min_qty']
+[INFO] 14-06-2024 14:35:15 [main] LogUtils - Set text: milk on element By.xpath: //tags[@role='tagslist']
+[INFO] 14-06-2024 14:35:15 [main] LogUtils - Set text: 50000 on element By.xpath: //input[@placeholder='Unit price']
+[INFO] 14-06-2024 14:35:16 [main] LogUtils - Set text: 1 on element By.xpath: //input[@placeholder='Quantity']
+[INFO] 14-06-2024 14:35:18 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Save & Publish']
+[INFO] 14-06-2024 14:35:18 [main] LogUtils - Wait for create proccess: 
+[INFO] 14-06-2024 14:35:20 [main] LogUtils - Check element display By.cssSelector: div[role='alert'] 
+=======> true
+[INFO] 14-06-2024 14:35:20 [main] LogUtils - Check add new product success:true
+[INFO] 14-06-2024 14:35:20 [main] LogUtils - PASSED!! Test case addNewProduct
+[INFO] 14-06-2024 14:35:21 [main] LogUtils - onFinish: Fri Jun 14 14:35:21 ICT 2024
+[INFO] 14-06-2024 14:37:03 [main] LogUtils - onStart: Fri Jun 14 14:37:01 ICT 2024
+[INFO] 14-06-2024 14:37:06 [main] LogUtils - Start test case addNewProduct
+[INFO] 14-06-2024 14:37:09 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 14-06-2024 14:37:09 [main] LogUtils - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 14-06-2024 14:37:10 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 14-06-2024 14:37:12 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 14-06-2024 14:37:12 [main] LogUtils - Get Current URL: https://cms.anhtester.com/admin
+[INFO] 14-06-2024 14:37:12 [main] LogUtils - Login Success!!
+[INFO] 14-06-2024 14:37:13 [main] LogUtils - Click element By.xpath: //span[normalize-space()='Products']
+[INFO] 14-06-2024 14:37:14 [main] LogUtils - Click element By.xpath: //span[normalize-space()='Add New Product']
+[INFO] 14-06-2024 14:37:14 [main] LogUtils - Check element display By.xpath: //h5[normalize-space()='Add New Product'] 
+=======> true
+[INFO] 14-06-2024 14:37:14 [main] LogUtils - Check Add New Product Title is visible true
+[INFO] 14-06-2024 14:37:15 [main] LogUtils - Set text: TestingProduct on element By.xpath: //input[@placeholder='Product Name']
+[INFO] 14-06-2024 14:37:15 [main] LogUtils - Click element By.xpath: //button[@title='Sport shoes']
+[INFO] 14-06-2024 14:37:15 [main] LogUtils - Set text: aka on element By.xpath: (//input[@aria-label='Search'])[1]
+[INFO] 14-06-2024 14:37:15 [main] LogUtils - Set text: g on element By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 14-06-2024 14:37:16 [main] LogUtils - Set text: 1 on element By.xpath: //input[@name='min_qty']
+[INFO] 14-06-2024 14:37:16 [main] LogUtils - Set text: milk on element By.xpath: //tags[@role='tagslist']
+[INFO] 14-06-2024 14:37:16 [main] LogUtils - Set text: 50000 on element By.xpath: //input[@placeholder='Unit price']
+[INFO] 14-06-2024 14:37:16 [main] LogUtils - Set text: 1 on element By.xpath: //input[@placeholder='Quantity']
+[INFO] 14-06-2024 14:37:18 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Save & Publish']
+[INFO] 14-06-2024 14:37:18 [main] LogUtils - Wait for create proccess: 
+[INFO] 14-06-2024 14:37:20 [main] LogUtils - Check element display By.cssSelector: div[role='alert'] 
+=======> true
+[INFO] 14-06-2024 14:37:20 [main] LogUtils - Check add new product success:true
+[INFO] 14-06-2024 14:37:20 [main] LogUtils - PASSED!! Test case addNewProduct
+[INFO] 14-06-2024 14:37:21 [main] LogUtils - onFinish: Fri Jun 14 14:37:21 ICT 2024
+[INFO] 14-06-2024 14:38:08 [main] LogUtils - onStart: Fri Jun 14 14:38:07 ICT 2024
+[INFO] 14-06-2024 14:38:11 [TestNG-test=Login Test Parallel-1] LogUtils - Start test case addNewProduct
+[INFO] 14-06-2024 14:38:11 [TestNG-test=Login Test Parallel-2] LogUtils - Start test case searchProduct
+[INFO] 14-06-2024 14:38:15 [TestNG-test=Login Test Parallel-1] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 14-06-2024 14:38:15 [TestNG-test=Login Test Parallel-2] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 14-06-2024 14:38:16 [TestNG-test=Login Test Parallel-1] LogUtils - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 14-06-2024 14:38:16 [TestNG-test=Login Test Parallel-2] LogUtils - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 14-06-2024 14:38:16 [TestNG-test=Login Test Parallel-1] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 14-06-2024 14:38:17 [TestNG-test=Login Test Parallel-2] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 14-06-2024 14:38:20 [TestNG-test=Login Test Parallel-2] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 14-06-2024 14:38:20 [TestNG-test=Login Test Parallel-1] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 14-06-2024 14:38:20 [TestNG-test=Login Test Parallel-2] LogUtils - Get Current URL: https://cms.anhtester.com/admin
+[INFO] 14-06-2024 14:38:20 [TestNG-test=Login Test Parallel-1] LogUtils - Get Current URL: https://cms.anhtester.com/admin
+[INFO] 14-06-2024 14:38:20 [TestNG-test=Login Test Parallel-2] LogUtils - Login Success!!
+[INFO] 14-06-2024 14:38:20 [TestNG-test=Login Test Parallel-1] LogUtils - Login Success!!
+[INFO] 14-06-2024 14:38:21 [TestNG-test=Login Test Parallel-1] LogUtils - Click element By.xpath: //span[normalize-space()='Products']
+[INFO] 14-06-2024 14:38:21 [TestNG-test=Login Test Parallel-2] LogUtils - Click element By.xpath: //span[normalize-space()='Products']
+[INFO] 14-06-2024 14:38:23 [TestNG-test=Login Test Parallel-1] LogUtils - Click element By.xpath: //span[normalize-space()='Add New Product']
+[INFO] 14-06-2024 14:38:23 [TestNG-test=Login Test Parallel-1] LogUtils - Check element display By.xpath: //h5[normalize-space()='Add New Product'] 
+=======> true
+[INFO] 14-06-2024 14:38:23 [TestNG-test=Login Test Parallel-1] LogUtils - Check Add New Product Title is visible true
+[INFO] 14-06-2024 14:38:24 [TestNG-test=Login Test Parallel-1] LogUtils - Set text: TestingProduct on element By.xpath: //input[@placeholder='Product Name']
+[INFO] 14-06-2024 14:38:24 [TestNG-test=Login Test Parallel-2] LogUtils - Click element By.xpath: //span[normalize-space()='All products']
+[INFO] 14-06-2024 14:38:24 [TestNG-test=Login Test Parallel-2] LogUtils - Check element display By.xpath: //h1[normalize-space()='All products'] 
+=======> true
+[INFO] 14-06-2024 14:38:24 [TestNG-test=Login Test Parallel-2] LogUtils - Check All Products Title is visible true
+[INFO] 14-06-2024 14:38:24 [TestNG-test=Login Test Parallel-1] LogUtils - Click element By.xpath: //button[@title='Sport shoes']
+[INFO] 14-06-2024 14:38:25 [TestNG-test=Login Test Parallel-1] LogUtils - Set text: aka on element By.xpath: (//input[@aria-label='Search'])[1]
+[INFO] 14-06-2024 14:38:25 [TestNG-test=Login Test Parallel-1] LogUtils - Set text: g on element By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 14-06-2024 14:38:25 [TestNG-test=Login Test Parallel-1] LogUtils - Set text: 1 on element By.xpath: //input[@name='min_qty']
+[INFO] 14-06-2024 14:38:25 [TestNG-test=Login Test Parallel-1] LogUtils - Set text: milk on element By.xpath: //tags[@role='tagslist']
+[INFO] 14-06-2024 14:38:25 [TestNG-test=Login Test Parallel-1] LogUtils - Set text: 50000 on element By.xpath: //input[@placeholder='Unit price']
+[INFO] 14-06-2024 14:38:25 [TestNG-test=Login Test Parallel-1] LogUtils - Set text: 1 on element By.xpath: //input[@placeholder='Quantity']
+[INFO] 14-06-2024 14:38:27 [TestNG-test=Login Test Parallel-2] LogUtils - Set text TestingProduct on element By.xpath: //input[@id='search']
+[INFO] 14-06-2024 14:38:28 [TestNG-test=Login Test Parallel-2] LogUtils - Click element By.xpath: //tbody/tr[1]/td[9] //a[@title='View']
+[INFO] 14-06-2024 14:38:28 [TestNG-test=Login Test Parallel-2] LogUtils - Get second window: BE1AFD66E48ED2CCD6E34944C75B5A86
+[INFO] 14-06-2024 14:38:28 [TestNG-test=Login Test Parallel-2] LogUtils - Switch to detail window success
+[INFO] 14-06-2024 14:38:28 [TestNG-test=Login Test Parallel-1] LogUtils - Click element By.xpath: //button[normalize-space()='Save & Publish']
+[INFO] 14-06-2024 14:38:28 [TestNG-test=Login Test Parallel-1] LogUtils - Wait for create proccess: 
+[INFO] 14-06-2024 14:38:30 [TestNG-test=Login Test Parallel-1] LogUtils - Check element display By.cssSelector: div[role='alert'] 
+=======> true
+[INFO] 14-06-2024 14:38:30 [TestNG-test=Login Test Parallel-1] LogUtils - Check add new product success:true
+[INFO] 14-06-2024 14:38:31 [TestNG-test=Login Test Parallel-2] LogUtils - Click element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 14-06-2024 14:38:31 [TestNG-test=Login Test Parallel-1] LogUtils - PASSED!! Test case addNewProduct
+[INFO] 14-06-2024 14:38:31 [TestNG-test=Login Test Parallel-2] LogUtils - Click element By.cssSelector: .website-popup .modal-dialog-centered .absolute-top-right .la-close
+[INFO] 14-06-2024 14:38:31 [TestNG-test=Login Test Parallel-2] LogUtils - Get text of element By.xpath: //h1[normalize-space()='TestingProduct']
+[INFO] 14-06-2024 14:38:31 [TestNG-test=Login Test Parallel-2] LogUtils - ==> Text: TestingProduct
+[INFO] 14-06-2024 14:38:32 [TestNG-test=Login Test Parallel-2] LogUtils - Product name in detail:TestingProduct
+[INFO] 14-06-2024 14:38:32 [TestNG-test=Login Test Parallel-2] LogUtils - Verify contains: By.xpath: //h1[normalize-space()='TestingProduct'] and TestingProduct
+[INFO] 14-06-2024 14:38:32 [TestNG-test=Login Test Parallel-2] LogUtils - Check product name in detail: true
+[INFO] 14-06-2024 14:38:32 [TestNG-test=Login Test Parallel-2] LogUtils - PASSED!! Test case searchProduct
+[INFO] 14-06-2024 14:38:32 [main] LogUtils - onFinish: Fri Jun 14 14:38:32 ICT 2024

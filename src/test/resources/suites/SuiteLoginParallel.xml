@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite Parallel Test" parallel="classes" thread-count="2">
+    <test name="Login Test Parallel">
+        <classes>
+            <class name="com.phuongnn10.KiemTra2.testcases.AddNewProductTest" />
+            <class name="com.phuongnn10.KiemTra2.testcases.ProductDetailTest"></class>
+        </classes>
+    </test>
+</suite>
